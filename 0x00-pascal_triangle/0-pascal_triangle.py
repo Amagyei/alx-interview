@@ -20,6 +20,8 @@ def triangle_populator(triangle):
 def pascal_triangle(n):
     ''' Makes the triangle'''
     triangle = []
+    if n <= 0:
+        return triangle
     for i in range(n):
         triangle.append(create_list(i))
     return triangle_populator(triangle)
