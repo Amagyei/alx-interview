@@ -1,10 +1,13 @@
 #!/usr/bin/python3
 """
-Pascal's Triangle 
+Pascal's Triangle
 """
+
+
 def create_list(i):
     '''Returns a list of 1s'''
-    return [1] * (i +1)
+    return [1] * (i + 1)
+
 
 def triangle_populator(triangle):
     '''Populates each list of the triangle with correct value'''
@@ -15,7 +18,7 @@ def triangle_populator(triangle):
                 continue
             triangle[i][j] = triangle[i - 1][j - 1] + triangle[i - 1][j]
     return triangle
-    
+
 
 def pascal_triangle(n):
     ''' Makes the triangle'''
@@ -25,5 +28,3 @@ def pascal_triangle(n):
     for i in range(n):
         triangle.append(create_list(i))
     return triangle_populator(triangle)
-
-
