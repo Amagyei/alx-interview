@@ -3,6 +3,8 @@
 """
 
 def canUnlockAll(boxes):
+    """ loops through the boxes it can open to find new keys 
+    """
     keys = {0}
     opened_boxes = [0]
     while opened_boxes:
