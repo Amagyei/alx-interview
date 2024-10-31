@@ -4,7 +4,7 @@ Main file for testing
 """
 
 
-def valid_utf8(data):
+def validUTF8(data):
     """
     Main file for testing
     """
