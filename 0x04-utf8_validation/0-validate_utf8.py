@@ -44,3 +44,4 @@ def valid_utf8(self, data: List[int]) -> bool:
 
 # Check if all characters have been fully processed
     return num_of_bytes == 0
+
