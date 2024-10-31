@@ -3,7 +3,7 @@
 Main file for testing
 """
 
-def valid_utf8(self, data: List[int]) -> bool:
+def validUTF8(data):
     """
     Main file for testing
     """
